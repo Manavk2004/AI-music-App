@@ -30,7 +30,20 @@ export default function homePage(){
                         </ul>
                     </nav>
                 </div>
+
                 <div id="body-container">
+                    <div class="fidgets" id="fidget1">
+
+                    </div>
+                    <div class="fidgets" id="fidget2">
+                    
+                    </div>
+                    <div class="fidgets" id="fidget3">
+                    
+                    </div>
+                    <div class="fidgets" id="fidget4">
+                    
+                    </div>
                     <div id="mp3-container1">
                         <div id="mp3-photo-1">
                         </div>
@@ -42,6 +55,8 @@ export default function homePage(){
                             <img id='skip-forward' src={skipForward}/>
                             <img id="shuffle-button" src={shuffle}/>
                         </div>
+                    </div>
+                    <div id="chat-bot">
                     </div>
                 </div>
             </div>

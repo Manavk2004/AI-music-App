@@ -90,7 +90,7 @@ body{
   background-color: rgb(114, 114, 114);
   background: transparent;
   backdrop-filter: blur(40px);
-  box-shadow: 0 0 10px rgb(157, 155, 155);
+  box-shadow: 0 0 10px rgb(72, 72, 72);
   background-image: radial-gradient(circle at 50% 50%, rgb(94, 94, 126), transparent); /* black with 60% opacity */
 
 }
@@ -197,3 +197,74 @@ body{
 }
 
 /* End Audio Editing */
+
+
+
+/* Figdets */
+
+@keyframes slideFromTop{
+  from{
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fidgets{
+  border-radius: 20px;
+}
+
+#fidget1{
+  border: 2px solid white;
+  grid-column: 2 / 4;
+  grid-row: 1 / 4;
+  margin-top: 20px;
+  animation: slideFromTop 1s ease-out forwards
+
+}
+
+#fidget2{
+  border: 2px solid white;
+  grid-column: 5 / 7;
+  grid-row: 1 / 4;
+  margin-top: 20px;
+  animation: slideFromTop 1.4s ease-out forwards
+
+}
+
+#fidget3{
+  border: 2px solid white;
+  grid-column: 8 / 10;
+  grid-row: 1 / 4;
+  margin-top: 20px;
+  animation: slideFromTop 1.8s ease-out forwards
+
+}
+
+#fidget4{
+  border: 2px solid white;
+  grid-column: 11 / 13;
+  grid-row: 1 / 4;
+  margin-top: 20px;
+  animation: slideFromTop 2.2s ease-out forwards
+
+}
+
+
+
+/* End Fidgets */
+
+
+/* Chat Bot */
+#chat-bot{
+  border: 2px solid white;
+  grid-column: 6 / 13;
+  grid-row: 5 / 13;
+  border-radius: 20px;
+}
+
+
+/* End Chat Bot */
