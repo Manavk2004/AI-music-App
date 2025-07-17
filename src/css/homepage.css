@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+#background {
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(circle at center bottom, red, transparent); /* black with 60% opacity */
+  color: white;
+  border: 2px solid red;
+  background-color: black
+}
+
+
+
+
+/* PNG Editing */
+#home-png{
+    border: none;
+    width: 60px;
+    height: 60px;
+}
+
+#music-note{
+  width: 60px;
+  height: 70px;
+  padding-right:5px;
+}
+
+#navbarUL > a{
+  cursor: pointer;
+}
+/* 
+#navbarUL > a:hover{
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+} */
+
+#folder{
+  width: 60px;
+  height: 70px;
+}
+
+.nav-icon{
+  transition: filter 0.2s ease-in-out;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.nav-icon:hover {
+  transition: box-shadow 0.5s ease-in-out;
+  box-shadow: 0 0 5px rgb(44, 3, 132); /* Makes it glow brighter */
+}
+
+.nav-a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/* End PNG Editing */
+
+
+
+/* Nav-Bar Editing */
+
+#navbarUL{
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+
+
+#nav-bar-container{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid greenyellow;
+  height: 100vh;
+  width: fit-content;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(114, 114, 114);
+  background: transparent;
+  backdrop-filter: blur(40px);
+  background-image: radial-gradient(circle at center bottom, red, transparent); /* black with 60% opacity */
+
+}
+
+
+/* End NavBar Editing */
