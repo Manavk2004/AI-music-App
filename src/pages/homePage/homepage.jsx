@@ -57,6 +57,7 @@ export default function homePage(){
                         </div>
                     </div>
                     <div id="chat-bot">
+                        
                     </div>
                 </div>
             </div>
