@@ -10,9 +10,9 @@ body{
 #background {
   width: 100vw;
   height: 100vh;
-  background-image: radial-gradient(circle at center bottom, red, transparent); /* black with 60% opacity */
+  background-image: radial-gradient(circle at 50% 200%, rgb(94, 94, 126), transparent); /* black with 60% opacity */
   color: white;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: black
 }
 
@@ -53,7 +53,7 @@ body{
 
 .nav-icon:hover {
   transition: box-shadow 0.5s ease-in-out;
-  box-shadow: 0 0 5px rgb(44, 3, 132); /* Makes it glow brighter */
+  box-shadow: 0 0 5px rgb(0, 0, 0); /* Makes it glow brighter */
 }
 
 .nav-a{
@@ -81,7 +81,7 @@ body{
 #nav-bar-container{
   display: flex;
   flex-direction: column;
-  border: 2px solid greenyellow;
+  /* border: solid 2px greenyellow; */
   height: 100vh;
   width: fit-content;
   justify-content: center;
@@ -89,7 +89,8 @@ body{
   background-color: rgb(114, 114, 114);
   background: transparent;
   backdrop-filter: blur(40px);
-  background-image: radial-gradient(circle at center bottom, red, transparent); /* black with 60% opacity */
+  box-shadow: 0 0 10px rgb(157, 155, 155);
+  background-image: radial-gradient(circle at 50% 50%, rgb(94, 94, 126), transparent); /* black with 60% opacity */
 
 }
 
