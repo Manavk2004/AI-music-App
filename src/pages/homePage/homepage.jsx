@@ -35,16 +35,16 @@ export default function homePage(){
                 </div>
 
                 <div id="body-container">
-                    <div class="fidgets" id="fidget1">
+                    <div className="fidgets" id="fidget1">
 
                     </div>
-                    <div class="fidgets" id="fidget2">
+                    <div className="fidgets" id="fidget2">
                     
                     </div>
-                    <div class="fidgets" id="fidget3">
+                    <div className="fidgets" id="fidget3">
                     
                     </div>
-                    <div class="fidgets" id="fidget4">
+                    <div className="fidgets" id="fidget4">
                     
                     </div>
                     <div id="mp3-container1">

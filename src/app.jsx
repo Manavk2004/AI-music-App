@@ -3,7 +3,7 @@ import './css/homepage.css'
 import Homepage from "./pages/homePage/homepage.jsx"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-function App() {
+export function App() {
   const [count, setCount] = useState(0)
 
   return (
