@@ -13,9 +13,12 @@ import goBack from "../../assets/goBack.png"
 import { useState } from "react" 
 
 
-
 export default function homePage(){
     const [play, setPlay] = useState(true)
+
+    const handleLogin = () => {
+        window.location.href = "http://127.0.0.1:3001/login";
+    }
 
     return(
         <>
@@ -23,10 +26,10 @@ export default function homePage(){
                 <div id="nav-bar-container">
                     <nav id="navbar">
                         <ul id="navbarUL">
-                        <a className="nav-a"> <img className="nav-icon" id="home-png" src={home}/> </a>
-                        <a className="nav-a"> <img className="nav-icon" id="music-note" src={musicNote}/> </a>
-                        <a className="nav-a"> <img className="nav-icon" id="folder" src={folder}/> </a>
-                        <a className="nav-a"> <img className="nav-icon" id="folder" src={profile}/> </a>
+                        <a className="nav-a" href="/"> <img className="nav-icon" id="home-png" src={home}/> </a>
+                        <a className="nav-a" href="/explore"> <img className="nav-icon" id="music-note" src={musicNote}/> </a>
+                        <a className="nav-a" href="/saved"> <img className="nav-icon" id="folder" src={folder}/> </a>
+                        <button className="nav-a" onClick={handleLogin}> <img className="nav-icon" id="folder" src={profile}/> </button>
                         </ul>
                     </nav>
                 </div>
@@ -57,7 +60,7 @@ export default function homePage(){
                         </div>
                     </div>
                     <div id="chat-bot">
-                        
+
                     </div>
                 </div>
             </div>
